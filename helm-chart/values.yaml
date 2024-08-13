@@ -1,0 +1,16 @@
+replicas: 1
+
+image:
+  repo: chaudharishubham2911/cicd-demo1
+  tag: IMAGE_ID
+  pullPolicy: Always
+
+port: 9090
+
+labels:
+  app: myapp
+  environment: dev
+  tier: backend
+
+service:
+  type: NodePort

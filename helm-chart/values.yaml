@@ -1,8 +1,10 @@
-replicas: 1
+replicas: 3
+
+namespace: default
 
 image:
   repo: chaudharishubham2911/cicd-demo1
-  tag: v1   #####IMAGE_ID#####
+  tag: IMAGE_ID
   pullPolicy: Always
 
 port: 9090
@@ -14,3 +16,6 @@ labels:
 
 service:
   type: NodePort
+
+rollout:
+  revisionHistoryLimit: 3

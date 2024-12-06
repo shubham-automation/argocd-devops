@@ -4,7 +4,7 @@ namespace: default
 
 image:
   repo: chaudharishubham2911/cicd-demo1
-  tag: IMAGE_ID
+  tag: 25
   pullPolicy: Always
 
 port: 9090

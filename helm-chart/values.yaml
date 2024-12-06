@@ -3,7 +3,7 @@ replicas: 3
 namespace: default
 
 image:
-  repo: chaudharishubham2911/cicd-demo1
+  repo: chaudharishubham2911/argocd-demo
   tag: 27
   pullPolicy: Always
 

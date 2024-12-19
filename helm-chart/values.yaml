@@ -4,7 +4,7 @@ namespace: default
 
 image:
   repo: chaudharishubham2911/argocd-demo
-  tag: 3
+  tag: 73b14a92a939e87ea0171240255af264bd258951
   pullPolicy: Always
 
 port: 9090
